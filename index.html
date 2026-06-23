@@ -5,32 +5,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Minha Biblioteca</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header>
+    <span>Imagem</span>
     <a href="book-register.html">Para o cadastro</a>
   </header>
   <h1>Minha Biblioteca</h1>
 
-  <section>
-    <h2>Filtros</h2>
-    <div>
-      <label for="search">Buscar por:</label>
-      <input type="search" id="search">
-      <label for="order">Ordenar por:</label>
-      <select id="order">
-        <option value="alphabetic">Alfabética</option>
-        <option value="date">Data de Lançamento</option>
-        <option value="score">Nota</option>
-      </select>
-    </div>
+  <section class="filters">
+    <input type="search" id="search">
+    <select id="order">
+      <option value="alphabetic">Alfabética</option>
+      <option value="date">Data de Lançamento</option>
+      <option value="score">Nota</option>
+    </select>
   </section>
 
   <section>
     <h2>Não lido</h2>
 
-    <div>
+    <div class="books">
       <h3>Magnus Chase e os Deuses de Asgard: O Martelo de Thor</h3>
       <b>Autor:</b><span>Rick Riordan</span> <br>
       <b>Data de Lançamento:</b><span>04/10/2016</span>
@@ -40,11 +38,11 @@
   <section>
     <h2>Já lido</h2>
 
-    <div>
+    <div class="books">
       <h3>Os Heróis do Olimpo: A Casa de Hades</h3>
       <b>Autor:</b><span>Rick Riordan</span> <br>
       <b>Data de Lançamento:</b><span>24/09/2013</span> <br>
-      <b>Nota</b><span>10.0</span>
+      <b>Nota</ b><span>10.0</span>
     </div>
   </section>
 </body>
