@@ -11,40 +11,121 @@
 
 <body>
   <header>
-    <span>Imagem</span>
-    <a href="book-register.html">Para o cadastro</a>
+    <img src="/icons/logo-livro.png" alt="logo">
+    <a href="book-register.html">+ Novo Livro</a>
   </header>
-  <h1>Minha Biblioteca</h1>
 
-  <section class="filters">
-    <input type="search" id="search">
-    <select id="order">
-      <option value="alphabetic">Alfabética</option>
-      <option value="date">Data de Lançamento</option>
-      <option value="score">Nota</option>
-    </select>
-  </section>
-
-  <section>
-    <h2>Não lido</h2>
-
-    <div class="books">
-      <h3>Magnus Chase e os Deuses de Asgard: O Martelo de Thor</h3>
-      <b>Autor:</b><span>Rick Riordan</span> <br>
-      <b>Data de Lançamento:</b><span>04/10/2016</span>
-    </div>
-  </section>
-
-  <section>
-    <h2>Já lido</h2>
-
-    <div class="books">
-      <h3>Os Heróis do Olimpo: A Casa de Hades</h3>
-      <b>Autor:</b><span>Rick Riordan</span> <br>
-      <b>Data de Lançamento:</b><span>24/09/2013</span> <br>
-      <b>Nota</ b><span>10.0</span>
-    </div>
-  </section>
+  <div id="especialzona">
+    <h1>Minha Biblioteca</h1>
+    <section class="filters">
+      <div>
+        <label for="search">Buscar por:</label>
+        <input type="search" id="search" placeholder="Pesquisar...">
+      </div>
+      <div>
+        <label for="order">Ordenação:</label>
+        <select id="order">
+          <option value="alphabetic">Alfabética</option>
+          <option value="date">Data de Lançamento</option>
+          <option value="score">Nota</option>
+        </select>
+      </div>
+    </section>
+    <section class="section-card">
+      <h2 class="section-title">Não lidos</h2>
+      <div>
+        <div class="book-card">
+          <img src="https://m.media-amazon.com/images/I/71uj+LqIYQL._AC_UF1000,1000_QL80_.jpg"
+            alt="Capa do livro Magnus Chase 3">
+          <div>
+            <h3>Magnus Chase e os Deuses de Asgard: O Navio dos Mortos</h3>
+            <span>Rick Riordan</span> <br>
+            <span>03/10/2017</span>
+            <div>
+              <span>Não tenho</span>
+              <span>Não lido</span>
+              <span><b>ISBN:</b> 978-8551002476</span>
+            </div>
+          </div>
+        </div>
+        <div class="book-card">
+          <img src="https://m.media-amazon.com/images/I/61uZdXUOADL.jpg" alt="Capa do livro As Cronicas dos Kane 3">
+          <div>
+            <h3>As Crônicas dos Kane: A Sombra da Serpente</h3>
+            <span>Rick Riordan</span> <br>
+            <span>01/05/2012</span>
+            <div>
+              <span>Tenho</span>
+              <span>Não lido</span>
+              <span><b>ISBN:</b> 978-8580572018</span>
+            </div>
+          </div>
+        </div>
+        <div class="book-card">
+          <img src="https://m.media-amazon.com/images/I/61+2RRstscL._AC_UF1000,1000_QL80_.jpg"
+            alt="Capa do livro Percy Jackson e os Olimpianos 6">
+          <div>
+            <h3>Percy Jackson e os Olimpianos: O Cálice dos Deuses</h3>
+            <span>Rick Riordan</span> <br>
+            <span>26/09/2023</span> <br>
+            <div>
+              <span>Não tenho</span>
+              <span>Não Lido</span>
+              <span><b>ISBN</b> 978-6555606492</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-card">
+      <h2 class="section-title">Já lidos</h2>
+      <div>
+        <div class="book-card">
+          <img src="https://m.media-amazon.com/images/I/61D7SPJIzmL._AC_UF1000,1000_QL80_.jpg"
+            alt="Capa do livro Os heróis do Olimpo 4">
+          <div>
+            <h3>Os Heróis do Olimpo: A Casa de Hades</h3>
+            <span>Rick Riordan</span> <br>
+            <span>24/09/2013 | 10.0</span> <br>
+            <div>
+              <span>Tenho</span>
+              <span>Lido</span>
+              <span><b>ISBN:</b> 978-8580574210</span>
+            </div>
+          </div>
+        </div>
+        <div class="book-card">
+          <img src="https://m.media-amazon.com/images/I/91OvTwFvWKL.jpg" alt="Capa do livro O diário perdido">
+          <div>
+            <h3>Gravity Falls: O Diário Perdido</h3>
+            <span>Alex Hirsch</span> <br>
+            <span>26/07/2016 | 9.0</span> <br>
+            <div>
+              <span>Não tenho</span>
+              <span>Lido</span>
+              <span>Emprestado</span>
+              <span><b>ISBN: </b>978-8550303628</span>
+            </div>
+          </div>
+        </div>
+        <div class="book-card">
+          <img src="https://m.media-amazon.com/images/I/81Pf-hG7uIL._AC_UF1000,1000_QL80_.jpg"
+            alt="Capa do livro Percy Jackson e os deuses gregos">
+          <div>
+            <h3>Percy Jackson e os Deuses Gregos</h3>
+            <span>Rick Riordan</span> <br>
+            <span>19/08/2014 | 8.5</span> <br>
+            <div>
+              <span>Tenho</span>
+              <span>Lido</span>
+              <span>Emprestei</span>
+              <span><b>ISBN:</b> 978-8580576337</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 </body>
 
 </html>
