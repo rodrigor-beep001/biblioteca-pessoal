@@ -127,8 +127,8 @@ section.section-card>div {
   background-color: #dddddd;
   padding: 16px;
   border-radius: var(--defaut-radius);
-  max-width: 592px;
-  min-width: 592px;
+  max-width: 580px;
+  min-width: 580px;
 }
 
 .book-card img {
@@ -138,4 +138,35 @@ section.section-card>div {
 
 .book-card>div {
   padding: 16px;
+}
+
+.book-card h3 {
+  color: #292929;
+}
+
+.book-card span {
+  display: block;
+  margin: 4px 0 4px;
+  padding: 4px 0 4px;
+}
+
+.book-card .autor {
+  color: #5d5d5d;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.book-card .book-extra {
+  font-size: 0.85em;
+}
+
+.book-card .tags {
+  display: flex;
+  gap: 8px;
+}
+
+.book-card .tags>span {
+  padding: 2px 4px;
+  border-radius: 6px;
+  background-color: #0000ff44;
 }
