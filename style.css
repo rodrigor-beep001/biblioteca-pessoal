@@ -8,6 +8,12 @@
 :root {
   --primary-color: #a3481b;
   --defaut-radius: 8px;
+  --have-tag: #44914480;
+  --dnt-have-tag: #d73c6380;
+  --abandonned-tag: #bb323280;
+  --borrowed-tag: #bcbc2b80;
+  --lent-tag: #be862c80;
+
 }
 
 h1,
@@ -169,4 +175,24 @@ section.section-card>div {
   padding: 2px 4px;
   border-radius: 6px;
   background-color: #0000ff44;
+}
+
+.book-card .tags .have {
+  background-color: var(--have-tag);
+}
+
+.book-card .tags .dnt-have {
+  background-color: var(--dnt-have-tag);
+}
+
+.book-card .tags .abandonned {
+  background-color: var(--abandonned-tag);
+}
+
+.book-card .tags .borrowed {
+  background-color: var(--borrowed-tag);
+}
+
+.book-card .tags .lent {
+  background-color: var(--lent-tag);
 }
