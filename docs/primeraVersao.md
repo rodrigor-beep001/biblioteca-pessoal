@@ -11,7 +11,7 @@ Cadastro/edição de livros:
 2. Autor - String
 3. Data de lançamento
 4. Número de páginas
-4. Lido - Boolean ✅
+4. Lido
 5. Emprestei - Boolean ✅
 6. Emprestado - Boolean ✅
 7. Tenho - Boolean ✅
